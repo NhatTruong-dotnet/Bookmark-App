@@ -45,7 +45,7 @@ h1:hover{
     margin: 10px;
 }
 
-item:hover{
+.item:hover{
     background: rgba(0,0,0,0.6);
 }
 
@@ -82,7 +82,7 @@ a:hover, a:active{
 
 /* Modal */
 .modal-container{
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
     display: none;
     position: fixed;
     top: 0;
@@ -179,5 +179,5 @@ button:focus{
   @media screen and (max-width: 600px){
       .container{
           flex-direction: column;
-      }
+      } 
   }
